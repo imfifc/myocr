@@ -1,0 +1,3 @@
+labeled_bbox_list
+multi_image_info
+detection_results

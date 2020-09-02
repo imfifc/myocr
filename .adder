@@ -1,0 +1,6 @@
+{
+  "git_branch": "release-unified.ubuntu-source-2.1.0-clean",
+  "git_commit": "912c0a80e4386a0efe8afa9a7200d70ac463c134",
+  "git_repo": "git@git.tianrang-inc.com:tianshi/ocr-structuring.git",
+  "git_tag": "release-unified.ubuntu-source-2.1.0-clean-build.8"
+}

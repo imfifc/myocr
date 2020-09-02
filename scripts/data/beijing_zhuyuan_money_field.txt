@@ -1,0 +1,8 @@
+amountinwords
+medicalpaymoney
+personal_account_pay_money
+personpaymoney
+prepaid_amount
+receiptmoney
+refund_amount
+repayment_amount

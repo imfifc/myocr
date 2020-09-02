@@ -1,0 +1,14 @@
+amountinwords
+dang_nian_zhang_hu_yu_e
+fen_lei_zi_fu
+fu_jia_zhi_fu
+li_nian_zhang_hu_yu_e
+medical_insurance_overall_pay_money
+personal_account_pay_money
+prepaid_amount
+receiptmoney
+refund_amount
+repayment_amount
+selfpaymoney
+xian_jin_zhi_fu
+zi_fu

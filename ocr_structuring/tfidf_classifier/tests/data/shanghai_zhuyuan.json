@@ -1,0 +1,3840 @@
+{
+  "structuring_data": [
+    {
+      "city": {
+        "item_name": "city",
+        "show_name": "城市",
+        "content": "上海",
+        "confidence": 1.0,
+        "probability": 1.0,
+        "order": 1,
+        "_contents_after_filter_area": [],
+        "_contents_after_filter_regex": {}
+      },
+      "registrationtype": {
+        "item_name": "registrationtype",
+        "show_name": "挂号类型",
+        "content": "住院",
+        "confidence": 1.0,
+        "probability": 1.0,
+        "order": 1,
+        "_contents_after_filter_area": [],
+        "_contents_after_filter_regex": {}
+      },
+      "xian_jin_zhi_fu": {
+        "item_name": "xian_jin_zhi_fu",
+        "show_name": "现金支付",
+        "content": 5608.93,
+        "confidence": 1.0,
+        "probability": 0.9773493885714286,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "24.37",
+          "5608.93"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "5608.93",
+              "5608.93"
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "5608.93"
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "5608.93"
+            ],
+            [
+              null,
+              ""
+            ]
+          ]
+        }
+      },
+      "personal_account_pay_money": {
+        "item_name": "personal_account_pay_money",
+        "show_name": "个人账户支付",
+        "content": 50.74,
+        "confidence": 1.0,
+        "probability": 0.999987196,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "50.74",
+          "个人账户支付:"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              null,
+              "个人账户支付:"
+            ],
+            [
+              "50.74",
+              "50.74"
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "个人账户支付:"
+            ],
+            [
+              null,
+              "50.74"
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "个人账户支付:"
+            ],
+            [
+              null,
+              "50.74"
+            ]
+          ]
+        }
+      },
+      "medical_insurance_overall_pay_money": {
+        "item_name": "medical_insurance_overall_pay_money",
+        "show_name": "医保统筹支付",
+        "content": 1679.63,
+        "confidence": 1.0,
+        "probability": 0.9999534042857144,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "1679.63",
+          "0.00"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "1679.63",
+              "1679.63"
+            ],
+            [
+              "0.00",
+              "0.00"
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "1679.63"
+            ],
+            [
+              null,
+              "0.00"
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "1679.63"
+            ],
+            [
+              null,
+              "0.00"
+            ]
+          ]
+        }
+      },
+      "fu_jia_zhi_fu": {
+        "item_name": "fu_jia_zhi_fu",
+        "show_name": "附加支付",
+        "content": 0.0,
+        "confidence": 1.0,
+        "probability": 0.9986075474999999,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "失",
+          "0.00",
+          "遗"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "0.00",
+              "0.00"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "0.00"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "0.00"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ]
+        }
+      },
+      "fen_lei_zi_fu": {
+        "item_name": "fen_lei_zi_fu",
+        "show_name": "分类自负",
+        "content": 24.37,
+        "confidence": 1.0,
+        "probability": 0.984901152,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "元",
+          "24.37",
+          "自负"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "24.37",
+              "24.37"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "24.37"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "24.37"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ]
+        }
+      },
+      "zi_fu": {
+        "item_name": "zi_fu",
+        "show_name": "自负",
+        "content": 1745.66,
+        "confidence": 1.0,
+        "probability": 0.9373406971428572,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "元",
+          "1745.66",
+          "自费"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "1745.66",
+              "1745.66"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "1745.66"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "1745.66"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ]
+        }
+      },
+      "selfpaymoney": {
+        "item_name": "selfpaymoney",
+        "show_name": "自费",
+        "content": 3838.9,
+        "confidence": 1.0,
+        "probability": 0.9702841485714286,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "元",
+          "3838.90",
+          "(不属于医保报销范围)"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "3838.90",
+              "3838.90"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "3838.90"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "3838.90"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ]
+        }
+      },
+      "dang_nian_zhang_hu_yu_e": {
+        "item_name": "dang_nian_zhang_hu_yu_e",
+        "show_name": "当年账户余额",
+        "content": 1560.8,
+        "confidence": 1.0,
+        "probability": 0.9960508828571427,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "1560.80",
+          "当年账户结余:"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              null,
+              "当年账户结余:"
+            ],
+            [
+              "1560.80",
+              "1560.80"
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "当年账户结余:"
+            ],
+            [
+              null,
+              "1560.80"
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "当年账户结余:"
+            ],
+            [
+              null,
+              "1560.80"
+            ]
+          ]
+        }
+      },
+      "li_nian_zhang_hu_yu_e": {
+        "item_name": "li_nian_zhang_hu_yu_e",
+        "show_name": "历年账户余额",
+        "content": 0.0,
+        "confidence": 1.0,
+        "probability": 0.9999912075,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "章",
+          "0.00",
+          "有",
+          "历年账户结余:"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              null,
+              "历年账户结余:"
+            ],
+            [
+              "0.00",
+              "0.00"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "历年账户结余:"
+            ],
+            [
+              null,
+              "0.00"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "历年账户结余:"
+            ],
+            [
+              null,
+              "0.00"
+            ],
+            [
+              null,
+              ""
+            ],
+            [
+              null,
+              ""
+            ]
+          ]
+        }
+      },
+      "prepaid_amount": {
+        "item_name": "prepaid_amount",
+        "show_name": "预缴金额",
+        "content": 4008.0,
+        "confidence": 1.0,
+        "probability": 0.9401732171428572,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "4008.00"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "4008.00",
+              "4008.00"
+            ]
+          ]
+        }
+      },
+      "repayment_amount": {
+        "item_name": "repayment_amount",
+        "show_name": "补缴金额",
+        "content": 1608.9,
+        "confidence": 1.0,
+        "probability": 0.999730922857143,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "1608.90",
+          "7339.30"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "1608.90",
+              "1608.90"
+            ],
+            [
+              "7339.30",
+              "7339.30"
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "1608.90"
+            ],
+            [
+              null,
+              "7339.30"
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "1608.90"
+            ],
+            [
+              null,
+              "7339.30"
+            ]
+          ]
+        }
+      },
+      "refund_amount": {
+        "item_name": "refund_amount",
+        "show_name": "退费金额",
+        "content": 0.0,
+        "confidence": 1.0,
+        "probability": 0.9999912075,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "0.00"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "0.00",
+              "0.00"
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{1})$": [
+            [
+              null,
+              "0.00"
+            ]
+          ],
+          "^([0-9,]{1,}[.]*)$": [
+            [
+              null,
+              "0.00"
+            ]
+          ]
+        }
+      },
+      "medical_insurance_type": {
+        "item_name": "medical_insurance_type",
+        "show_name": "医保类型",
+        "content": "医保",
+        "confidence": 1.0,
+        "probability": 0.99999965,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "日",
+          "医保"
+        ],
+        "_contents_after_filter_regex": {
+          "^([A-Z一-龥]+)$": [
+            [
+              null,
+              ""
+            ],
+            [
+              "医保",
+              "医保"
+            ]
+          ]
+        }
+      },
+      "name": {
+        "item_name": "name",
+        "show_name": "姓名",
+        "content": "朱秋楠",
+        "confidence": 1.0,
+        "probability": 0.9989860566666667,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "朱秋楠"
+        ],
+        "_contents_after_filter_regex": {
+          "^([一-龥]{2,3})$": [
+            [
+              "朱秋楠",
+              "朱秋楠"
+            ]
+          ],
+          "^([一-龥]{2,3})[性别:]": [
+            [
+              null,
+              "朱秋楠"
+            ]
+          ],
+          "^[姓名:]*_?([一-龥]{2,3})$": [
+            [
+              "朱秋楠",
+              "朱秋楠"
+            ]
+          ]
+        }
+      },
+      "sex": {
+        "item_name": "sex",
+        "show_name": "性别",
+        "content": "女",
+        "confidence": 0.0,
+        "probability": 0.7875208134940793,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "2015.04月6上午到2015.04.23上午",
+          "金额",
+          "性别:",
+          "1501020000116634",
+          "3.500.00",
+          "月",
+          "医疗机构类型:",
+          "收费项目",
+          "西药费:",
+          "医保类型:",
+          "中福会国际和平妇幼保健院",
+          "(元)",
+          "70.00",
+          "输氧费:"
+        ],
+        "_contents_after_filter_regex": {
+          "([男女]{1})": [
+            [
+              null,
+              "中福会国际和平妇幼保健院"
+            ],
+            [
+              null,
+              "2015.04月6上午到2015.04.23上午"
+            ],
+            [
+              null,
+              "1501020000116634"
+            ],
+            [
+              null,
+              "3.500.00"
+            ],
+            [
+              null,
+              "金额"
+            ],
+            [
+              null,
+              "性别:"
+            ],
+            [
+              null,
+              "(元)"
+            ],
+            [
+              null,
+              "医疗机构类型:"
+            ],
+            [
+              null,
+              "医保类型:"
+            ],
+            [
+              null,
+              "输氧费:"
+            ],
+            [
+              null,
+              "西药费:"
+            ],
+            [
+              null,
+              "收费项目"
+            ],
+            [
+              null,
+              "月"
+            ],
+            [
+              null,
+              "70.00"
+            ]
+          ]
+        }
+      },
+      "receiptno": {
+        "item_name": "receiptno",
+        "show_name": "发票号",
+        "content": "1400417525",
+        "confidence": 1.0,
+        "probability": 0.9759219490000002,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "住院号:",
+          "23962)",
+          "1400417525"
+        ],
+        "_contents_after_filter_regex": {
+          "([01][\\d]{9})$": [
+            [
+              null,
+              "住院号:"
+            ],
+            [
+              "1400417525",
+              "1400417525"
+            ],
+            [
+              null,
+              "23962)"
+            ]
+          ]
+        }
+      },
+      "hospitalstay": {
+        "item_name": "hospitalstay",
+        "show_name": "住院天数",
+        "content": "239",
+        "confidence": 1.0,
+        "probability": 0.9973646716666668,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "239621"
+        ],
+        "_contents_after_filter_regex": {
+          "([0-9]{1,4}[.][0-9]{1,2})": [
+            [
+              null,
+              "239621"
+            ]
+          ],
+          "([1-9][0-9]{0,2})": [
+            [
+              "239",
+              "239621"
+            ]
+          ]
+        }
+      },
+      "hospitalstartdate": {
+        "item_name": "hospitalstartdate",
+        "show_name": "住院起始时间",
+        "content": "2015-04-06",
+        "confidence": 1.0,
+        "probability": 0.96600858125,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "住院时间:",
+          "2015.04月6上午到2015.04.23上午",
+          "业务流水号:",
+          "1501020000116634"
+        ],
+        "_contents_after_filter_regex": {}
+      },
+      "hospitalenddate": {
+        "item_name": "hospitalenddate",
+        "show_name": "住院结束时间",
+        "content": "2015-04-23",
+        "confidence": 1.0,
+        "probability": 0.9491624164516129,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "2015.04月6上午到2015.04.23上午",
+          "M专科医院",
+          "日",
+          "月"
+        ],
+        "_contents_after_filter_regex": {}
+      },
+      "medical_record_no": {
+        "item_name": "medical_record_no",
+        "show_name": "病历号",
+        "confidence": 0.0,
+        "probability": 0.0,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "院",
+          "费",
+          "收",
+          "239621"
+        ],
+        "_contents_after_filter_regex": {
+          "([\\d]{9})$": [
+            [
+              null,
+              "院"
+            ],
+            [
+              null,
+              "收"
+            ],
+            [
+              null,
+              "239621"
+            ],
+            [
+              null,
+              "费"
+            ]
+          ]
+        }
+      },
+      "business_serial_no": {
+        "item_name": "business_serial_no",
+        "show_name": "业务流水号",
+        "content": "1501020000116634",
+        "confidence": 1.0,
+        "probability": 0.969532973125,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "1501020000116634",
+          "中福会国际和平妇幼保健院"
+        ],
+        "_contents_after_filter_regex": {
+          "([\\d]+)$": [
+            [
+              null,
+              "中福会国际和平妇幼保健院"
+            ],
+            [
+              "1501020000116634",
+              "1501020000116634"
+            ]
+          ]
+        }
+      },
+      "medical_institution_type": {
+        "item_name": "medical_institution_type",
+        "show_name": "医疗机构类型",
+        "content": "专科医院",
+        "confidence": 1.0,
+        "probability": 0.859280646,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "中福会国际和平妇幼保健院",
+          "医",
+          "M专科医院"
+        ],
+        "_contents_after_filter_regex": {
+          "([一-龥]{2,})": [
+            [
+              "中福会国际和平妇幼保健院",
+              "中福会国际和平妇幼保健院"
+            ],
+            [
+              "专科医院",
+              "M专科医院"
+            ],
+            [
+              null,
+              "医"
+            ]
+          ]
+        }
+      },
+      "social_security_no": {
+        "item_name": "social_security_no",
+        "show_name": "社保号",
+        "content": "803301511",
+        "confidence": 1.0,
+        "probability": 0.9533498722222222,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "803301511"
+        ],
+        "_contents_after_filter_regex": {
+          "([0-9]*[A-Z]{1,2}[0-9]{6,9}[A-Z]*)": [
+            [
+              null,
+              "803301511"
+            ]
+          ],
+          "([0-9]{8,25})": [
+            [
+              "803301511",
+              "803301511"
+            ]
+          ]
+        }
+      },
+      "admissiondate": {
+        "item_name": "admissiondate",
+        "show_name": "日期",
+        "content": "2015-04-22",
+        "confidence": 1.0,
+        "probability": 0.8943283611764707,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "收款员:",
+          "少儿支付基金:",
+          "元",
+          "(不属于医保报销范围)",
+          "0832",
+          "52",
+          "7",
+          "X",
+          "日期",
+          "自负",
+          "衡山路910号_产科",
+          "0",
+          "补",
+          "伙0",
+          "自费",
+          "0.",
+          "少儿医保金额:0",
+          "2015_04223/",
+          "b。\u0026、—(元)0"
+        ],
+        "_contents_after_filter_regex": {}
+      },
+      "hospital_name": {
+        "item_name": "hospital_name",
+        "show_name": "医院名",
+        "content": "中国福利会国际和平妇幼保健院",
+        "confidence": 1.0,
+        "probability": 0.9997890675000001,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "中福会国际和平妇幼保健院"
+        ],
+        "_contents_after_filter_regex": {
+          "([一-龥_ ]+)": [
+            [
+              "中福会国际和平妇幼保健院",
+              "中福会国际和平妇幼保健院"
+            ]
+          ]
+        }
+      },
+      "amountinwords": {
+        "item_name": "amountinwords",
+        "show_name": "账单金额大写",
+        "content": 7339.3,
+        "confidence": 1.0,
+        "probability": 0.99721639,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "附加支付:",
+          "7339.30",
+          "现金支付:",
+          "1.056.75",
+          "50.74",
+          "合计(大写):",
+          "1745.66",
+          "个人账户支付:",
+          "5",
+          "0.00",
+          "补缴金额:",
+          "现金支付中:",
+          "114.00",
+          "历年账户结余:",
+          "4008.00",
+          "医保统筹支付:",
+          "柒仟叁佰叁拾玖元叁角(7,339.30)",
+          "预缴金额:",
+          "当年账户结余:",
+          "5608.93",
+          "147.50",
+          "765.00",
+          "1560.80",
+          "手术费:",
+          "24.37",
+          "退费金额:",
+          "(7.339.30)",
+          "1608.90",
+          "饮食费:",
+          "化验费:",
+          "2",
+          "护理费:",
+          "1679.63",
+          "3838.90"
+        ],
+        "_contents_after_filter_regex": {
+          "([零壹贰叁肆伍陆柒捌玖拾佰仟万亿圆元角分整]+)": [
+            [
+              null,
+              "2"
+            ],
+            [
+              null,
+              "现金支付中:"
+            ],
+            [
+              null,
+              "预缴金额:"
+            ],
+            [
+              null,
+              "现金支付:"
+            ],
+            [
+              null,
+              "合计(大写):"
+            ],
+            [
+              null,
+              "化验费:"
+            ],
+            [
+              null,
+              "手术费:"
+            ],
+            [
+              null,
+              "5608.93"
+            ],
+            [
+              null,
+              "4008.00"
+            ],
+            [
+              "柒仟叁佰叁拾玖元叁角",
+              "柒仟叁佰叁拾玖元叁角(7,339.30)"
+            ],
+            [
+              null,
+              "24.37"
+            ],
+            [
+              null,
+              "1.056.75"
+            ],
+            [
+              null,
+              "765.00"
+            ],
+            [
+              null,
+              "114.00"
+            ],
+            [
+              null,
+              "个人账户支付:"
+            ],
+            [
+              null,
+              "(7.339.30)"
+            ],
+            [
+              null,
+              "补缴金额:"
+            ],
+            [
+              null,
+              "1745.66"
+            ],
+            [
+              null,
+              "饮食费:"
+            ],
+            [
+              null,
+              "50.74"
+            ],
+            [
+              null,
+              "1608.90"
+            ],
+            [
+              null,
+              "7339.30"
+            ],
+            [
+              null,
+              "医保统筹支付:"
+            ],
+            [
+              null,
+              "3838.90"
+            ],
+            [
+              null,
+              "当年账户结余:"
+            ],
+            [
+              null,
+              "147.50"
+            ],
+            [
+              null,
+              "1679.63"
+            ],
+            [
+              null,
+              "退费金额:"
+            ],
+            [
+              null,
+              "1560.80"
+            ],
+            [
+              null,
+              "附加支付:"
+            ],
+            [
+              null,
+              "0.00"
+            ],
+            [
+              null,
+              "历年账户结余:"
+            ],
+            [
+              null,
+              "0.00"
+            ],
+            [
+              null,
+              "0.00"
+            ],
+            [
+              null,
+              "护理费:"
+            ],
+            [
+              null,
+              "5"
+            ]
+          ]
+        }
+      },
+      "receiptmoney": {
+        "item_name": "receiptmoney",
+        "show_name": "账单金额小写",
+        "content": 7339.3,
+        "confidence": 1.0,
+        "probability": 0.99721639,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "7339.30"
+        ],
+        "_contents_after_filter_regex": {
+          "^([0-9,]{1,}[.][0-9]{2})$": [
+            [
+              "7339.30",
+              "7339.30"
+            ]
+          ],
+          "^([0-9]+)$": [
+            [
+              null,
+              "7339.30"
+            ]
+          ],
+          "^([0-9,]{1,}[.][0-9]{4})$": [
+            [
+              null,
+              "7339.30"
+            ]
+          ]
+        }
+      },
+      "hospital_stay_no": {
+        "item_name": "hospital_stay_no",
+        "show_name": "住院号",
+        "content": "1400417525",
+        "confidence": 1.0,
+        "probability": 0.9759219490000002,
+        "order": 1,
+        "_contents_after_filter_area": [
+          "住院号:",
+          "23962)",
+          "1400417525"
+        ],
+        "_contents_after_filter_regex": {
+          "([0-9]+)$": [
+            [
+              null,
+              "住院号:"
+            ],
+            [
+              "1400417525",
+              "1400417525"
+            ],
+            [
+              null,
+              "23962)"
+            ]
+          ]
+        }
+      },
+      "summary_charges": {
+        "item_name": "summary_charges",
+        "show_name": "大体收费项",
+        "content": [
+          {
+            "name": {
+              "val": "M专科医院",
+              "scores": [
+                0.9996499,
+                0.9999883,
+                1,
+                0.99997187
+              ],
+              "probability": 0.9999025175
+            },
+            "charge": {
+              "val": 23962.0,
+              "scores": [
+                0.99994993,
+                0.998963,
+                0.99926525,
+                0.9431478,
+                0.99909484
+              ],
+              "probability": 0.988084164
+            }
+          },
+          {
+            "name": {
+              "val": "护理费",
+              "scores": [
+                0.99999976,
+                0.9975031,
+                0.99998593
+              ],
+              "probability": 0.9991629300000001
+            },
+            "charge": {
+              "val": 114.0,
+              "scores": [
+                0.99999285,
+                0.99999976,
+                0.9999988,
+                0.99999833,
+                0.9999609,
+                0.99999416
+              ],
+              "probability": 0.9999908
+            }
+          },
+          {
+            "name": {
+              "val": "衡山路910号",
+              "scores": [
+                0.9997602,
+                0.9997657,
+                0.9999962
+              ],
+              "probability": 0.9998407
+            },
+            "charge": {
+              "val": 832.0,
+              "scores": [
+                0.9999385,
+                0.9998653,
+                0.9999962
+              ],
+              "probability": 0.9999333333333333
+            }
+          },
+          {
+            "name": {
+              "val": "M专科医院",
+              "scores": [
+                0.9996499,
+                0.9999883,
+                1,
+                0.99997187
+              ],
+              "probability": 0.9999025175
+            },
+            "charge": {
+              "val": 23962.0,
+              "scores": [
+                0.99994993,
+                0.998963,
+                0.99926525,
+                0.9431478,
+                0.99909484
+              ],
+              "probability": 0.988084164
+            }
+          },
+          {
+            "name": {
+              "val": "护理费",
+              "scores": [
+                0.99999976,
+                0.9975031,
+                0.99998593
+              ],
+              "probability": 0.9991629300000001
+            },
+            "charge": {
+              "val": 114.0,
+              "scores": [
+                0.99999285,
+                0.99999976,
+                0.9999988,
+                0.99999833,
+                0.9999609,
+                0.99999416
+              ],
+              "probability": 0.9999908
+            }
+          },
+          {
+            "name": {
+              "val": "衡山路910号",
+              "scores": [
+                0.9997602,
+                0.9997657,
+                0.9999962
+              ],
+              "probability": 0.9998407
+            },
+            "charge": {
+              "val": 832.0,
+              "scores": [
+                0.9999385,
+                0.9998653,
+                0.9999962
+              ],
+              "probability": 0.9999333333333333
+            }
+          },
+          {
+            "name": {
+              "val": "M专科医院",
+              "scores": [
+                0.9996499,
+                0.9999883,
+                1,
+                0.99997187
+              ],
+              "probability": 0.9999025175
+            },
+            "charge": {
+              "val": 23962.0,
+              "scores": [
+                0.99994993,
+                0.998963,
+                0.99926525,
+                0.9431478,
+                0.99909484
+              ],
+              "probability": 0.988084164
+            }
+          },
+          {
+            "name": {
+              "val": "护理费",
+              "scores": [
+                0.99999976,
+                0.9975031,
+                0.99998593
+              ],
+              "probability": 0.9991629300000001
+            },
+            "charge": {
+              "val": 114.0,
+              "scores": [
+                0.99999285,
+                0.99999976,
+                0.9999988,
+                0.99999833,
+                0.9999609,
+                0.99999416
+              ],
+              "probability": 0.9999908
+            }
+          },
+          {
+            "name": {
+              "val": "衡山路910号",
+              "scores": [
+                0.9997602,
+                0.9997657,
+                0.9999962
+              ],
+              "probability": 0.9998407
+            },
+            "charge": {
+              "val": 832.0,
+              "scores": [
+                0.9999385,
+                0.9998653,
+                0.9999962
+              ],
+              "probability": 0.9999333333333333
+            }
+          }
+        ],
+        "confidence": 1.0,
+        "probability": 0.9976462085185186,
+        "order": 1,
+        "_contents_after_filter_area": [],
+        "_contents_after_filter_regex": {}
+      },
+      "detail_charges": {
+        "item_name": "detail_charges",
+        "show_name": "细分收费项",
+        "content": [
+          {
+            "name": {
+              "val": "2015.04月6上午到2015.04.23上午",
+              "scores": [
+                0.99999976,
+                0.9993594,
+                0.9999989
+              ],
+              "probability": 0.99978602
+            },
+            "unit_price": {
+              "val": 7.0,
+              "scores": [
+                0.99888796,
+                0.9999956,
+                0.99971515
+              ],
+              "probability": 0.9995329033333333
+            },
+            "total_price": {
+              "val": 7.0,
+              "scores": [
+                0.9985915,
+                0.9997626,
+                0.99973124
+              ],
+              "probability": 0.99936178
+            }
+          },
+          {
+            "name": {
+              "val": "住院费",
+              "scores": [
+                0.99999523,
+                0.9999989,
+                0.99999976
+              ],
+              "probability": 0.9999979633333335
+            },
+            "unit_price": {
+              "val": 3.5,
+              "scores": [
+                0.9266228,
+                0.8774267,
+                0.9999969,
+                0.9999963,
+                0.9999974
+              ],
+              "probability": 0.96080802
+            },
+            "total_price": {
+              "val": 14.0,
+              "scores": [
+                0.99999845,
+                0.9999999,
+                0.7907772,
+                0.99999833,
+                0.9979711
+              ],
+              "probability": 0.9577489960000001
+            }
+          },
+          {
+            "name": {
+              "val": "住院诊查费",
+              "scores": [
+                0.9999999,
+                1,
+                1
+              ],
+              "probability": 0.9999999666666667
+            },
+            "unit_price": {
+              "val": 70.0,
+              "scores": [
+                0.9999925,
+                0.99999976,
+                0.9994966,
+                0.99997747,
+                0.9999995
+              ],
+              "probability": 0.999893166
+            },
+            "total_price": {
+              "val": 304.07,
+              "scores": [
+                0.99644744,
+                0.9999862,
+                0.99996114,
+                0.99966395,
+                0.9999951,
+                0.9999604
+              ],
+              "probability": 0.999335705
+            }
+          },
+          {
+            "name": {
+              "val": "检查费",
+              "scores": [
+                0.99901986,
+                1,
+                0.9999999
+              ],
+              "probability": 0.9996732533333333
+            },
+            "unit_price": {
+              "val": 328.4,
+              "scores": [
+                0.9999982,
+                0.99999714,
+                0.99985445,
+                0.99948114,
+                1,
+                0.99965465
+              ],
+              "probability": 0.9998309299999999
+            },
+            "total_price": {
+              "val": 510.0,
+              "scores": [
+                0.99984264,
+                0.99999666,
+                0.99999917,
+                0.99999964,
+                0.9999958,
+                0.99998796
+              ],
+              "probability": 0.9999703116666668
+            }
+          },
+          {
+            "name": {
+              "val": "手术费",
+              "scores": [
+                1,
+                1,
+                0.9999989
+              ],
+              "probability": 0.9999996333333333
+            },
+            "unit_price": {
+              "val": 1.056,
+              "scores": [
+                0.9999685,
+                0.7773305,
+                0.9978466,
+                0.99999976,
+                0.9999317
+              ],
+              "probability": 0.9550154120000001
+            },
+            "total_price": {
+              "val": 147.5,
+              "scores": [
+                0.9999927,
+                0.99999964,
+                0.99999344,
+                0.99999905,
+                0.9999919,
+                0.99960464
+              ],
+              "probability": 0.9999302283333334
+            }
+          },
+          {
+            "name": {
+              "val": "柒仟叁佰叁拾玖元叁角(7339.30)",
+              "scores": [
+                0.99999964,
+                0.9999988,
+                0.99999833,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0.99865997,
+                1
+              ],
+              "probability": 0.9998656739999999
+            },
+            "unit_price": {
+              "val": 1560.8,
+              "scores": [
+                0.99999964,
+                0.9999906,
+                0.9995919,
+                0.9999926,
+                0.99999714,
+                0.9999975,
+                0.9727868
+              ],
+              "probability": 0.9960508828571427
+            },
+            "total_price": {
+              "val": 7339.3,
+              "scores": [
+                0.9997713,
+                0.974697,
+                0.9999753,
+                0.99819595,
+                0.99999046,
+                0.6019754,
+                0.9912571
+              ],
+              "probability": 0.9379803585714285
+            }
+          },
+          {
+            "name": {
+              "val": "2015.04月6上午到2015.04.23上午",
+              "scores": [
+                0.99999976,
+                0.9993594,
+                0.9999989
+              ],
+              "probability": 0.99978602
+            },
+            "unit_price": {
+              "val": 7.0,
+              "scores": [
+                0.99888796,
+                0.9999956,
+                0.99971515
+              ],
+              "probability": 0.9995329033333333
+            },
+            "total_price": {
+              "val": 7.0,
+              "scores": [
+                0.9985915,
+                0.9997626,
+                0.99973124
+              ],
+              "probability": 0.99936178
+            }
+          },
+          {
+            "name": {
+              "val": "住院费",
+              "scores": [
+                0.99999523,
+                0.9999989,
+                0.99999976
+              ],
+              "probability": 0.9999979633333335
+            },
+            "unit_price": {
+              "val": 3.5,
+              "scores": [
+                0.9266228,
+                0.8774267,
+                0.9999969,
+                0.9999963,
+                0.9999974
+              ],
+              "probability": 0.96080802
+            },
+            "total_price": {
+              "val": 14.0,
+              "scores": [
+                0.99999845,
+                0.9999999,
+                0.7907772,
+                0.99999833,
+                0.9979711
+              ],
+              "probability": 0.9577489960000001
+            }
+          },
+          {
+            "name": {
+              "val": "住院诊查费",
+              "scores": [
+                0.9999999,
+                1,
+                1
+              ],
+              "probability": 0.9999999666666667
+            },
+            "unit_price": {
+              "val": 70.0,
+              "scores": [
+                0.9999925,
+                0.99999976,
+                0.9994966,
+                0.99997747,
+                0.9999995
+              ],
+              "probability": 0.999893166
+            },
+            "total_price": {
+              "val": 304.07,
+              "scores": [
+                0.99644744,
+                0.9999862,
+                0.99996114,
+                0.99966395,
+                0.9999951,
+                0.9999604
+              ],
+              "probability": 0.999335705
+            }
+          },
+          {
+            "name": {
+              "val": "检查费",
+              "scores": [
+                0.99901986,
+                1,
+                0.9999999
+              ],
+              "probability": 0.9996732533333333
+            },
+            "unit_price": {
+              "val": 328.4,
+              "scores": [
+                0.9999982,
+                0.99999714,
+                0.99985445,
+                0.99948114,
+                1,
+                0.99965465
+              ],
+              "probability": 0.9998309299999999
+            },
+            "total_price": {
+              "val": 510.0,
+              "scores": [
+                0.99984264,
+                0.99999666,
+                0.99999917,
+                0.99999964,
+                0.9999958,
+                0.99998796
+              ],
+              "probability": 0.9999703116666668
+            }
+          },
+          {
+            "name": {
+              "val": "手术费",
+              "scores": [
+                1,
+                1,
+                0.9999989
+              ],
+              "probability": 0.9999996333333333
+            },
+            "unit_price": {
+              "val": 1.056,
+              "scores": [
+                0.9999685,
+                0.7773305,
+                0.9978466,
+                0.99999976,
+                0.9999317
+              ],
+              "probability": 0.9550154120000001
+            },
+            "total_price": {
+              "val": 147.5,
+              "scores": [
+                0.9999927,
+                0.99999964,
+                0.99999344,
+                0.99999905,
+                0.9999919,
+                0.99960464
+              ],
+              "probability": 0.9999302283333334
+            }
+          },
+          {
+            "name": {
+              "val": "柒仟叁佰叁拾玖元叁角(7339.30)",
+              "scores": [
+                0.99999964,
+                0.9999988,
+                0.99999833,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0.99865997,
+                1
+              ],
+              "probability": 0.9998656739999999
+            },
+            "unit_price": {
+              "val": 1560.8,
+              "scores": [
+                0.99999964,
+                0.9999906,
+                0.9995919,
+                0.9999926,
+                0.99999714,
+                0.9999975,
+                0.9727868
+              ],
+              "probability": 0.9960508828571427
+            },
+            "total_price": {
+              "val": 7339.3,
+              "scores": [
+                0.9997713,
+                0.974697,
+                0.9999753,
+                0.99819595,
+                0.99999046,
+                0.6019754,
+                0.9912571
+              ],
+              "probability": 0.9379803585714285
+            }
+          },
+          {
+            "name": {
+              "val": "2015.04月6上午到2015.04.23上午",
+              "scores": [
+                0.99999976,
+                0.9993594,
+                0.9999989
+              ],
+              "probability": 0.99978602
+            },
+            "unit_price": {
+              "val": 7.0,
+              "scores": [
+                0.99888796,
+                0.9999956,
+                0.99971515
+              ],
+              "probability": 0.9995329033333333
+            },
+            "total_price": {
+              "val": 7.0,
+              "scores": [
+                0.9985915,
+                0.9997626,
+                0.99973124
+              ],
+              "probability": 0.99936178
+            }
+          },
+          {
+            "name": {
+              "val": "住院费",
+              "scores": [
+                0.99999523,
+                0.9999989,
+                0.99999976
+              ],
+              "probability": 0.9999979633333335
+            },
+            "unit_price": {
+              "val": 3.5,
+              "scores": [
+                0.9266228,
+                0.8774267,
+                0.9999969,
+                0.9999963,
+                0.9999974
+              ],
+              "probability": 0.96080802
+            },
+            "total_price": {
+              "val": 14.0,
+              "scores": [
+                0.99999845,
+                0.9999999,
+                0.7907772,
+                0.99999833,
+                0.9979711
+              ],
+              "probability": 0.9577489960000001
+            }
+          },
+          {
+            "name": {
+              "val": "住院诊查费",
+              "scores": [
+                0.9999999,
+                1,
+                1
+              ],
+              "probability": 0.9999999666666667
+            },
+            "unit_price": {
+              "val": 70.0,
+              "scores": [
+                0.9999925,
+                0.99999976,
+                0.9994966,
+                0.99997747,
+                0.9999995
+              ],
+              "probability": 0.999893166
+            },
+            "total_price": {
+              "val": 304.07,
+              "scores": [
+                0.99644744,
+                0.9999862,
+                0.99996114,
+                0.99966395,
+                0.9999951,
+                0.9999604
+              ],
+              "probability": 0.999335705
+            }
+          },
+          {
+            "name": {
+              "val": "检查费",
+              "scores": [
+                0.99901986,
+                1,
+                0.9999999
+              ],
+              "probability": 0.9996732533333333
+            },
+            "unit_price": {
+              "val": 328.4,
+              "scores": [
+                0.9999982,
+                0.99999714,
+                0.99985445,
+                0.99948114,
+                1,
+                0.99965465
+              ],
+              "probability": 0.9998309299999999
+            },
+            "total_price": {
+              "val": 510.0,
+              "scores": [
+                0.99984264,
+                0.99999666,
+                0.99999917,
+                0.99999964,
+                0.9999958,
+                0.99998796
+              ],
+              "probability": 0.9999703116666668
+            }
+          },
+          {
+            "name": {
+              "val": "手术费",
+              "scores": [
+                1,
+                1,
+                0.9999989
+              ],
+              "probability": 0.9999996333333333
+            },
+            "unit_price": {
+              "val": 1.056,
+              "scores": [
+                0.9999685,
+                0.7773305,
+                0.9978466,
+                0.99999976,
+                0.9999317
+              ],
+              "probability": 0.9550154120000001
+            },
+            "total_price": {
+              "val": 147.5,
+              "scores": [
+                0.9999927,
+                0.99999964,
+                0.99999344,
+                0.99999905,
+                0.9999919,
+                0.99960464
+              ],
+              "probability": 0.9999302283333334
+            }
+          },
+          {
+            "name": {
+              "val": "柒仟叁佰叁拾玖元叁角(7339.30)",
+              "scores": [
+                0.99999964,
+                0.9999988,
+                0.99999833,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0.99865997,
+                1
+              ],
+              "probability": 0.9998656739999999
+            },
+            "unit_price": {
+              "val": 1560.8,
+              "scores": [
+                0.99999964,
+                0.9999906,
+                0.9995919,
+                0.9999926,
+                0.99999714,
+                0.9999975,
+                0.9727868
+              ],
+              "probability": 0.9960508828571427
+            },
+            "total_price": {
+              "val": 7339.3,
+              "scores": [
+                0.9997713,
+                0.974697,
+                0.9999753,
+                0.99819595,
+                0.99999046,
+                0.6019754,
+                0.9912571
+              ],
+              "probability": 0.9379803585714285
+            }
+          }
+        ],
+        "confidence": 1.0,
+        "probability": 0.9887291775131768,
+        "order": 1,
+        "_contents_after_filter_area": [],
+        "_contents_after_filter_regex": {}
+      }
+    }
+  ],
+  "structuring_meta": [
+    {
+      "template_area": 12,
+      "template_registration_type": 2,
+      "template_classify_score": 0.8297756974005852,
+      "_structure_item_version": "V1",
+      "template_name": "shanghai_zhuyuan",
+      "_item_names_version": "V1",
+      "template_category": 1
+    }
+  ],
+  "preprocess_result": {
+    "roi": [
+      0,
+      0,
+      1638,
+      2354
+    ],
+    "orientation": {
+      "vote_rotation": 0,
+      "executed_rotation": 0
+    }
+  },
+  "raw_data": [
+    [
+      "7",
+      141,
+      806,
+      164,
+      827,
+      1,
+      0.24537176
+    ],
+    [
+      "2",
+      143,
+      854,
+      168,
+      878,
+      1,
+      0.23129131
+    ],
+    [
+      "8",
+      150,
+      1099,
+      174,
+      1124,
+      1,
+      0.98464036
+    ],
+    [
+      "医",
+      156,
+      1079,
+      178,
+      1101,
+      1,
+      0.65375704
+    ],
+    [
+      "业务流水号:",
+      164,
+      579,
+      281,
+      609,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.9999939
+    ],
+    [
+      "住院时间:",
+      163,
+      616,
+      258,
+      642,
+      1,
+      0.9999999,
+      1,
+      1,
+      0.9999999,
+      0.99956733
+    ],
+    [
+      "姓名:",
+      168,
+      654,
+      219,
+      680,
+      1,
+      1,
+      1,
+      0.9942245
+    ],
+    [
+      "衡山路910号_产科",
+      172,
+      1073,
+      389,
+      1103,
+      1,
+      0.9997602,
+      0.9997657,
+      0.9999962,
+      0.9376454,
+      0.9999981,
+      0.95501184,
+      1,
+      0.8968794,
+      0.9998814,
+      0.9987484
+    ],
+    [
+      "现金支付中:",
+      173,
+      1039,
+      299,
+      1068,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.99996877
+    ],
+    [
+      "预缴金额:",
+      174,
+      966,
+      271,
+      992,
+      1,
+      0.9999999,
+      1,
+      1,
+      1,
+      0.8195035
+    ],
+    [
+      "现金支付:",
+      175,
+      1004,
+      271,
+      1031,
+      1,
+      1,
+      1,
+      0.988889,
+      1,
+      0.9991611
+    ],
+    [
+      "合计(大写):",
+      176,
+      928,
+      280,
+      955,
+      1,
+      1,
+      1,
+      0.9995023,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      "收款单位",
+      179,
+      1185,
+      266,
+      1214,
+      1,
+      0.99999523,
+      0.9997646,
+      0.9999727,
+      0.9999714
+    ],
+    [
+      "治疗费:",
+      182,
+      811,
+      266,
+      840,
+      1,
+      0.99998784,
+      1,
+      0.99987996,
+      0.6327676
+    ],
+    [
+      "住院费:",
+      180,
+      730,
+      264,
+      758,
+      1,
+      0.99999523,
+      0.9999989,
+      0.99999976,
+      0.9999279
+    ],
+    [
+      "化验费:",
+      185,
+      864,
+      269,
+      892,
+      1,
+      0.99999976,
+      0.9999858,
+      1,
+      0.99982446
+    ],
+    [
+      "诊查费:",
+      183,
+      758,
+      264,
+      786,
+      1,
+      0.9999999,
+      1,
+      1,
+      0.99999166
+    ],
+    [
+      "手术费:",
+      187,
+      838,
+      269,
+      867,
+      1,
+      1,
+      1,
+      0.9999989,
+      0.9982305
+    ],
+    [
+      "收费项目",
+      230,
+      691,
+      318,
+      720,
+      1,
+      1,
+      0.9999989,
+      1,
+      1
+    ],
+    [
+      "朱秋楠",
+      244,
+      643,
+      323,
+      673,
+      1,
+      0.99999833,
+      0.99989474,
+      0.9970651
+    ],
+    [
+      "(章)",
+      275,
+      1185,
+      320,
+      1213,
+      1,
+      0.9998889,
+      1,
+      1
+    ],
+    [
+      "中福会国际和平妇幼保健院",
+      275,
+      525,
+      762,
+      575,
+      1,
+      0.9999968,
+      1,
+      0.9999999,
+      0.99999714,
+      1,
+      1,
+      0.99747497,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      "2015.04月6上午到2015.04.23上午",
+      291,
+      604,
+      643,
+      635,
+      1,
+      0.9999999,
+      0.7207462,
+      0.99987304,
+      0.99999475,
+      0.96017027,
+      0.9998129,
+      0.99950886,
+      0.70322573,
+      0.9999602,
+      0.99999976,
+      0.9993594,
+      0.9999989,
+      0.9997193,
+      0.91832656,
+      0.98810357,
+      0.99864465,
+      0.86321825,
+      0.99953735,
+      0.9999242,
+      0.97843754,
+      0.9999732,
+      0.9999738,
+      0.99936765,
+      0.9999397
+    ],
+    [
+      "5608.93",
+      306,
+      1001,
+      394,
+      1028,
+      1,
+      0.9999958,
+      0.99609876,
+      0.9999945,
+      0.99853146,
+      0.8481784,
+      0.9999982,
+      0.9986486
+    ],
+    [
+      "4008.00",
+      307,
+      965,
+      395,
+      992,
+      1,
+      0.99999976,
+      0.9999566,
+      0.9999808,
+      0.5866474,
+      0.999941,
+      0.99999726,
+      0.9946897
+    ],
+    [
+      "1501020000116634",
+      311,
+      581,
+      497,
+      606,
+      1,
+      0.9999962,
+      0.99998784,
+      0.99985385,
+      0.9999995,
+      0.99997246,
+      0.9999999,
+      0.9999974,
+      0.999915,
+      0.99951506,
+      0.9999876,
+      0.99999857,
+      0.9999739,
+      0.999997,
+      0.99993956,
+      0.99983263,
+      0.5135611
+    ],
+    [
+      ":",
+      320,
+      1190,
+      348,
+      1214,
+      1,
+      0.9999411
+    ],
+    [
+      "柒仟叁佰叁拾玖元叁角(7,339.30)",
+      334,
+      923,
+      679,
+      953,
+      1,
+      0.99999964,
+      0.9999988,
+      0.99999833,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.99865997,
+      1,
+      0.9998047,
+      0.9996056,
+      0.95503116,
+      0.99998796,
+      0.9999801,
+      0.99864703,
+      0.9942668,
+      0.9995097,
+      0.99883884,
+      0.99999917
+    ],
+    [
+      "伙0",
+      362,
+      1146,
+      432,
+      1184,
+      1,
+      0.15365767,
+      0.2959293
+    ],
+    [
+      "24.37",
+      400,
+      1022,
+      466,
+      1045,
+      1,
+      0.9999945,
+      0.92477256,
+      0.9999964,
+      0.9997521,
+      0.9999902
+    ],
+    [
+      "3.500.00",
+      425,
+      719,
+      530,
+      749,
+      1,
+      0.9266228,
+      0.8774267,
+      0.9999969,
+      0.9999963,
+      0.9999974,
+      0.99998176,
+      0.99987423,
+      0.99998236
+    ],
+    [
+      "1.056.75",
+      432,
+      827,
+      537,
+      856,
+      1,
+      0.9999685,
+      0.7773305,
+      0.9978466,
+      0.99999976,
+      0.9999317,
+      0.901987,
+      0.999985,
+      0.9999938
+    ],
+    [
+      "金额",
+      440,
+      686,
+      485,
+      712,
+      1,
+      0.99997056,
+      1
+    ],
+    [
+      "765.00",
+      453,
+      853,
+      535,
+      881,
+      1,
+      0.54730064,
+      0.9999926,
+      0.99999297,
+      0.99864954,
+      0.99999857,
+      0.9999963
+    ],
+    [
+      "性别:",
+      455,
+      644,
+      509,
+      673,
+      1,
+      0.9999988,
+      1,
+      0.9995516
+    ],
+    [
+      "139.00",
+      454,
+      799,
+      533,
+      828,
+      1,
+      0.99999404,
+      0.99998975,
+      0.9830813,
+      0.999928,
+      0.9999825,
+      0.9999933
+    ],
+    [
+      "114.00",
+      456,
+      882,
+      535,
+      910,
+      1,
+      0.99999285,
+      0.99999976,
+      0.9999988,
+      0.99999833,
+      0.9999609,
+      0.99999416
+    ],
+    [
+      "0832",
+      475,
+      1070,
+      535,
+      1095,
+      1,
+      0.99859494,
+      0.9999385,
+      0.9998653,
+      0.9999962
+    ],
+    [
+      "个人账户支付:",
+      476,
+      994,
+      615,
+      1023,
+      1,
+      0.99391466,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.99999785
+    ],
+    [
+      "元",
+      485,
+      1031,
+      515,
+      1060,
+      1,
+      1
+    ],
+    [
+      "(元)",
+      493,
+      683,
+      535,
+      711,
+      1,
+      0.9999832,
+      0.9999999,
+      0.9999862
+    ],
+    [
+      "医疗机构类型:",
+      514,
+      567,
+      656,
+      597,
+      1,
+      0.9999999,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.9999354
+    ],
+    [
+      "b。\u0026、—(元)0",
+      535,
+      1122,
+      1137,
+      1179,
+      1,
+      0.33668792,
+      0.46923783,
+      0.3337392,
+      0.38035795,
+      0.30055338,
+      0.73242575,
+      0.5198581,
+      0.6403749,
+      0.44204655
+    ],
+    [
+      "医保类型:",
+      540,
+      638,
+      640,
+      671,
+      1,
+      1,
+      0.9999999,
+      0.8706571,
+      1,
+      0.94033
+    ],
+    [
+      "自负",
+      551,
+      1030,
+      596,
+      1058,
+      1,
+      1,
+      0.9999999
+    ],
+    [
+      "(7.339.30)",
+      568,
+      921,
+      687,
+      948,
+      1,
+      0.99981064,
+      0.9432275,
+      0.767679,
+      0.99996483,
+      0.9999783,
+      0.9995765,
+      0.57211864,
+      0.9993629,
+      0.9968732,
+      0.9909276
+    ],
+    [
+      "补缴金额:",
+      613,
+      954,
+      712,
+      982,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.9996568
+    ],
+    [
+      "1745.66",
+      621,
+      1019,
+      712,
+      1045,
+      1,
+      0.99999785,
+      0.99999845,
+      0.99999964,
+      0.9999721,
+      0.56170934,
+      0.9999063,
+      0.9998012
+    ],
+    [
+      "输氧费:",
+      655,
+      713,
+      740,
+      746,
+      1,
+      1,
+      0.99999917,
+      0.9999857,
+      0.952923
+    ],
+    [
+      "西药费:",
+      656,
+      741,
+      734,
+      774,
+      1,
+      0.9999056,
+      1,
+      0.99999714,
+      0.99816436
+    ],
+    [
+      "材料费:",
+      655,
+      797,
+      739,
+      827,
+      1,
+      1,
+      0.99999964,
+      0.9999852,
+      0.9989951
+    ],
+    [
+      "中成药费:",
+      656,
+      769,
+      759,
+      799,
+      1,
+      0.99999785,
+      0.9999975,
+      0.9999999,
+      0.9999461,
+      0.9990972
+    ],
+    [
+      "饮食费:",
+      657,
+      823,
+      740,
+      854,
+      1,
+      0.9989254,
+      0.9999871,
+      0.99999964,
+      0.99985814
+    ],
+    [
+      "0",
+      662,
+      1098,
+      698,
+      1143,
+      1,
+      0.9843215
+    ],
+    [
+      "收费项目",
+      663,
+      677,
+      754,
+      707,
+      1,
+      1,
+      0.99999964,
+      1,
+      1
+    ],
+    [
+      "收款员:",
+      664,
+      1174,
+      741,
+      1205,
+      1,
+      0.9999994,
+      1,
+      1,
+      0.9990459
+    ],
+    [
+      "月",
+      675,
+      594,
+      699,
+      627,
+      1,
+      0.9999993
+    ],
+    [
+      "50.74",
+      681,
+      989,
+      750,
+      1018,
+      1,
+      0.9999571,
+      0.9999914,
+      0.99999964,
+      0.99998844,
+      0.9999994
+    ],
+    [
+      "1",
+      686,
+      470,
+      728,
+      514,
+      1,
+      0.1414177
+    ],
+    [
+      "日",
+      728,
+      598,
+      755,
+      624,
+      1,
+      0.9998167
+    ],
+    [
+      "M专科医院",
+      734,
+      561,
+      860,
+      592,
+      1,
+      0.29679316,
+      0.9996499,
+      0.9999883,
+      1,
+      0.99997187
+    ],
+    [
+      "52",
+      743,
+      1101,
+      778,
+      1131,
+      1,
+      0.9995441,
+      0.9999354
+    ],
+    [
+      "自费",
+      756,
+      1026,
+      801,
+      1055,
+      1,
+      0.99999785,
+      1
+    ],
+    [
+      "医保",
+      769,
+      627,
+      828,
+      657,
+      1,
+      0.9999993,
+      1
+    ],
+    [
+      "医",
+      778,
+      512,
+      819,
+      555,
+      1,
+      0.9345997
+    ],
+    [
+      "海",
+      786,
+      469,
+      831,
+      507,
+      1,
+      0.9999143
+    ],
+    [
+      "1608.90",
+      798,
+      950,
+      914,
+      983,
+      1,
+      1,
+      0.9998399,
+      0.99997723,
+      0.9995408,
+      0.999997,
+      0.9997043,
+      0.99905723
+    ],
+    [
+      "7339.30",
+      809,
+      918,
+      907,
+      946,
+      1,
+      0.9997713,
+      0.974697,
+      0.9999753,
+      0.99819595,
+      0.99999046,
+      0.6019754,
+      0.9912571
+    ],
+    [
+      "医保统筹支付:",
+      818,
+      985,
+      959,
+      1016,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.9947456,
+      0.9999999
+    ],
+    [
+      "疔",
+      842,
+      508,
+      883,
+      552,
+      1,
+      0.61708057
+    ],
+    [
+      "3838.90",
+      848,
+      1010,
+      938,
+      1038,
+      1,
+      0.9999553,
+      0.999681,
+      0.9999862,
+      0.99947137,
+      0.8051098,
+      0.9997634,
+      0.98802197
+    ],
+    [
+      "住院天数:",
+      870,
+      589,
+      973,
+      620,
+      1,
+      0.99998343,
+      1,
+      0.9999949,
+      1,
+      0.9999999
+    ],
+    [
+      "金额",
+      874,
+      673,
+      921,
+      699,
+      1,
+      0.99999845,
+      0.9999999
+    ],
+    [
+      "病历号:",
+      892,
+      554,
+      971,
+      582,
+      1,
+      0.9999877,
+      0.9999999,
+      1,
+      0.9999957
+    ],
+    [
+      "年",
+      901,
+      508,
+      945,
+      551,
+      1,
+      0.77120376
+    ],
+    [
+      "当年账户结余:",
+      913,
+      907,
+      1053,
+      938,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.99999833
+    ],
+    [
+      "304.07",
+      924,
+      733,
+      1005,
+      762,
+      1,
+      0.99644744,
+      0.9999862,
+      0.99996114,
+      0.99966395,
+      0.9999951,
+      0.9999604
+    ],
+    [
+      "147.50",
+      924,
+      814,
+      1009,
+      843,
+      1,
+      0.9999927,
+      0.99999964,
+      0.99999344,
+      0.99999905,
+      0.9999919,
+      0.99960464
+    ],
+    [
+      "390.58",
+      924,
+      787,
+      1008,
+      815,
+      1,
+      0.9999938,
+      0.99263,
+      0.992203,
+      0.974412,
+      0.9999535,
+      0.99983656
+    ],
+    [
+      "少儿医保金额:0",
+      925,
+      1063,
+      1097,
+      1094,
+      1,
+      0.9999999,
+      0.9999964,
+      1,
+      1,
+      0.99905795,
+      1,
+      0.99987173,
+      0.9999503
+    ],
+    [
+      "328.40",
+      925,
+      760,
+      1008,
+      789,
+      1,
+      0.9999982,
+      0.99999714,
+      0.99985445,
+      0.99948114,
+      1,
+      0.99965465
+    ],
+    [
+      "(元)",
+      929,
+      673,
+      971,
+      699,
+      1,
+      0.99999285,
+      0.9999999,
+      0.9832798
+    ],
+    [
+      "14.00",
+      931,
+      707,
+      1004,
+      736,
+      1,
+      0.99999845,
+      0.9999999,
+      0.7907772,
+      0.99999833,
+      0.9979711
+    ],
+    [
+      "(不属于医保报销范围)",
+      931,
+      1019,
+      1142,
+      1051,
+      1,
+      0.9929137,
+      0.9999999,
+      1,
+      0.9999584,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.99997497
+    ],
+    [
+      "院",
+      964,
+      506,
+      1007,
+      550,
+      1,
+      0.9999924
+    ],
+    [
+      "社会保障号码:",
+      987,
+      623,
+      1127,
+      659,
+      1,
+      0.70620745,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.99999106
+    ],
+    [
+      "1679.63",
+      1019,
+      985,
+      1111,
+      1013,
+      1,
+      0.9999999,
+      0.9999654,
+      0.9999815,
+      0.99996483,
+      0.9999993,
+      0.9999902,
+      0.9997727
+    ],
+    [
+      "收",
+      1026,
+      504,
+      1070,
+      545,
+      1,
+      1
+    ],
+    [
+      "0",
+      1043,
+      1089,
+      1077,
+      1125,
+      1,
+      0.98783964
+    ],
+    [
+      "日期",
+      1045,
+      1169,
+      1106,
+      1196,
+      1,
+      0.9885011,
+      1
+    ],
+    [
+      "239621",
+      1045,
+      562,
+      1120,
+      587,
+      1,
+      0.9999794,
+      0.99993,
+      0.99999166,
+      0.9993131,
+      0.99999857,
+      0.9849753
+    ],
+    [
+      "退费金额:",
+      1048,
+      944,
+      1142,
+      972,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.9922994
+    ],
+    [
+      "费",
+      1090,
+      502,
+      1131,
+      546,
+      1,
+      0.9999871
+    ],
+    [
+      "收费项目",
+      1096,
+      666,
+      1184,
+      694,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      "1560.80",
+      1110,
+      910,
+      1199,
+      939,
+      1,
+      0.99999964,
+      0.9999906,
+      0.9995919,
+      0.9999926,
+      0.99999714,
+      0.9999975,
+      0.9727868
+    ],
+    [
+      "7.0NO.",
+      1119,
+      582,
+      1197,
+      612,
+      1,
+      0.9985915,
+      0.9997626,
+      0.99973124,
+      0.999997,
+      0.99972075,
+      0.99997365
+    ],
+    [
+      "票",
+      1153,
+      499,
+      1196,
+      544,
+      1,
+      0.9999962
+    ],
+    [
+      "住院号:",
+      1164,
+      546,
+      1245,
+      574,
+      1,
+      1,
+      1,
+      1,
+      0.99999976
+    ],
+    [
+      "附加支付:",
+      1165,
+      979,
+      1261,
+      1009,
+      1,
+      0.78365946,
+      1,
+      1,
+      1,
+      0.9358089
+    ],
+    [
+      "0.00",
+      1179,
+      944,
+      1257,
+      976,
+      1,
+      0.99998426,
+      0.99999964,
+      0.9999999,
+      0.9999956
+    ],
+    [
+      "历年账户结余:",
+      1192,
+      903,
+      1327,
+      930,
+      1,
+      1,
+      1,
+      1,
+      0.99045324,
+      1,
+      1,
+      0.99991834
+    ],
+    [
+      "1400417525",
+      1203,
+      564,
+      1463,
+      608,
+      1,
+      1,
+      1,
+      0.99999905,
+      0.99999917,
+      0.9999981,
+      0.7607358,
+      0.9984982,
+      0.9999963,
+      0.9999943,
+      0.99999857
+    ],
+    [
+      "据",
+      1215,
+      499,
+      1262,
+      541,
+      1,
+      0.9999989
+    ],
+    [
+      "2015_04223/",
+      1233,
+      1093,
+      1381,
+      1123,
+      1,
+      0.9999989,
+      0.99998856,
+      0.99997663,
+      0.99997234,
+      0.3484977,
+      0.9999846,
+      0.9969658,
+      0.74225116,
+      0.9999298,
+      0.9505065,
+      0.48357967
+    ],
+    [
+      "少儿支付基金:",
+      1243,
+      1053,
+      1407,
+      1084,
+      1,
+      1,
+      0.9990606,
+      0.9999821,
+      1,
+      1,
+      0.999838,
+      0.79884386
+    ],
+    [
+      "803301511",
+      1280,
+      616,
+      1395,
+      644,
+      1,
+      0.5860715,
+      0.99617034,
+      0.9999354,
+      0.9996896,
+      0.9989196,
+      0.9999465,
+      0.99998796,
+      0.9997702,
+      0.99965775
+    ],
+    [
+      "金额",
+      1307,
+      662,
+      1351,
+      689,
+      1,
+      0.9999994,
+      1
+    ],
+    [
+      "23962)",
+      1334,
+      550,
+      1417,
+      574,
+      1,
+      0.99994993,
+      0.998963,
+      0.99926525,
+      0.9431478,
+      0.99909484,
+      0.69845086
+    ],
+    [
+      "0.00",
+      1347,
+      976,
+      1404,
+      1005,
+      1,
+      0.9999999,
+      0.99443865,
+      0.99999404,
+      0.9999976
+    ],
+    [
+      "(元)",
+      1363,
+      661,
+      1402,
+      686,
+      1,
+      0.99669266,
+      0.99999976,
+      0.95915616
+    ],
+    [
+      "0.00",
+      1383,
+      907,
+      1442,
+      934,
+      1,
+      0.9999956,
+      0.9999894,
+      0.999997,
+      0.99998283
+    ],
+    [
+      "0",
+      1411,
+      1056,
+      1436,
+      1081,
+      1,
+      0.9962218
+    ],
+    [
+      "联",
+      1484,
+      736,
+      1512,
+      756,
+      1,
+      0.9952924
+    ],
+    [
+      "笫",
+      1484,
+      691,
+      1509,
+      715,
+      1,
+      0.80868745
+    ],
+    [
+      "收",
+      1486,
+      777,
+      1511,
+      799,
+      1,
+      0.99999833
+    ],
+    [
+      "章",
+      1488,
+      881,
+      1513,
+      901,
+      1,
+      0.99469924
+    ],
+    [
+      "盖",
+      1489,
+      859,
+      1514,
+      882,
+      1,
+      0.9304081
+    ],
+    [
+      "有",
+      1489,
+      904,
+      1514,
+      924,
+      1,
+      0.9993405
+    ],
+    [
+      "数",
+      1490,
+      924,
+      1515,
+      944,
+      1,
+      0.87038076
+    ],
+    [
+      "遗",
+      1491,
+      951,
+      1514,
+      973,
+      1,
+      0.99749005
+    ],
+    [
+      "失",
+      1492,
+      974,
+      1514,
+      995,
+      1,
+      0.9997744
+    ],
+    [
+      "补",
+      1491,
+      1016,
+      1515,
+      1037,
+      1,
+      0.99877733
+    ],
+    [
+      "不",
+      1492,
+      998,
+      1515,
+      1017,
+      1,
+      0.9987363
+    ],
+    [
+      "护理费:",
+      186,
+      893,
+      268,
+      920,
+      0,
+      0.99999976,
+      0.9975031,
+      0.99998593,
+      0.98543775
+    ],
+    [
+      "检查费:",
+      183,
+      786,
+      264,
+      811,
+      0,
+      0.99901986,
+      1,
+      0.9999999,
+      0.99984
+    ],
+    [
+      "510.00",
+      454,
+      774,
+      531,
+      799,
+      0,
+      0.99984264,
+      0.99999666,
+      0.99999917,
+      0.99999964,
+      0.9999958,
+      0.99998796
+    ],
+    [
+      "市",
+      891,
+      459,
+      931,
+      502,
+      0,
+      0.9322627
+    ],
+    [
+      "70.00",
+      465,
+      749,
+      530,
+      773,
+      0,
+      0.9999925,
+      0.99999976,
+      0.9994966,
+      0.99997747,
+      0.9999995
+    ],
+    [
+      "7.0",
+      1117,
+      585,
+      1162,
+      608,
+      0,
+      0.99888796,
+      0.9999956,
+      0.99971515
+    ],
+    [
+      "0.",
+      601,
+      1120,
+      628,
+      1147,
+      0,
+      0.88798183,
+      0.85618365
+    ],
+    [
+      "元",
+      694,
+      1029,
+      718,
+      1053,
+      0,
+      0.9992192
+    ],
+    [
+      "7",
+      1340,
+      1153,
+      1362,
+      1175,
+      0,
+      0.9714301
+    ],
+    [
+      "联",
+      1488,
+      821,
+      1512,
+      840,
+      0,
+      0.9661243
+    ],
+    [
+      "X",
+      1071,
+      1144,
+      1094,
+      1163,
+      0,
+      0.6471377
+    ],
+    [
+      "据",
+      1488,
+      800,
+      1511,
+      817,
+      0,
+      0.99957424
+    ],
+    [
+      "元",
+      899,
+      1029,
+      919,
+      1048,
+      0,
+      0.9997247
+    ],
+    [
+      "5",
+      142,
+      780,
+      161,
+      800,
+      0,
+      0.3476731
+    ],
+    [
+      "兰",
+      1484,
+      718,
+      1508,
+      731,
+      0,
+      0.37595683
+    ],
+    [
+      "9",
+      142,
+      734,
+      160,
+      751,
+      0,
+      0.32257116
+    ],
+    [
+      "5",
+      146,
+      839,
+      163,
+      854,
+      0,
+      0.39971372
+    ],
+    [
+      "海",
+      142,
+      687,
+      159,
+      702,
+      0,
+      0.823833
+    ],
+    [
+      "8",
+      142,
+      672,
+      159,
+      687,
+      0,
+      0.55139697
+    ]
+  ]
+}

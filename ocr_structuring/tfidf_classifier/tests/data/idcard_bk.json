@@ -1,0 +1,215 @@
+{
+  "structuring_data": [
+    {
+      "issue_organization": {
+        "item_name": "issue_organization",
+        "show_name": "签发机关",
+        "content": "乐陵市公安局",
+        "confidence": 1.0,
+        "probability": 0.9999997019767761,
+        "order": 1,
+        "_contents_after_filter_area": [],
+        "_contents_after_filter_regex": {}
+      },
+      "available_start_date": {
+        "item_name": "available_start_date",
+        "show_name": "有效起始日期",
+        "content": "2012-05-15",
+        "confidence": 1.0,
+        "probability": 0.976117593901498,
+        "order": 1,
+        "_contents_after_filter_area": [],
+        "_contents_after_filter_regex": {}
+      },
+      "available_end_date": {
+        "item_name": "available_end_date",
+        "show_name": "有效结束日期",
+        "content": "2032-05-15",
+        "confidence": 1.0,
+        "probability": 0.976117593901498,
+        "order": 1,
+        "_contents_after_filter_area": [],
+        "_contents_after_filter_regex": {}
+      }
+    }
+  ],
+  "structuring_meta": [
+    {
+      "template_category": 3,
+      "template_registration_type": 0,
+      "template_classify_score": 1,
+      "_item_names_version": "V1",
+      "_structure_item_version": "V1",
+      "template_name": "idcard_bk"
+    }
+  ],
+  "preprocess_result": {
+    "roi": [
+      58,
+      166,
+      1548,
+      1131
+    ],
+    "orientation": {
+      "vote_rotation": 0,
+      "executed_rotation": 0
+    },
+    "small_angle_adjust": {}
+  },
+  "raw_data": [
+    [
+      "有效期限",
+      325,
+      798,
+      542,
+      867,
+      1,
+      1,
+      1,
+      0.9999999,
+      1
+    ],
+    [
+      "签发机关",
+      327,
+      673,
+      544,
+      739,
+      1,
+      0.9999975,
+      1,
+      0.9999994,
+      0.9943948
+    ],
+    [
+      "中华人民共和国",
+      491,
+      97,
+      1292,
+      222,
+      1,
+      0.99997365,
+      1,
+      0.99999905,
+      0.9999994,
+      0.99999976,
+      0.99999976,
+      0.9987643
+    ],
+    [
+      "2012.05.15-2032.05.15",
+      593,
+      806,
+      1210,
+      866,
+      1,
+      0.99999607,
+      1,
+      1,
+      0.9999999,
+      0.9998142,
+      0.99999917,
+      0.9999981,
+      0.99990237,
+      0.9999974,
+      0.9999999,
+      0.9999641,
+      0.9999968,
+      0.50489587,
+      0.9999982,
+      0.99996614,
+      0.9942326,
+      0.99999964,
+      0.99999964,
+      0.9997149,
+      0.99999976,
+      0.99999475
+    ],
+    [
+      "乐陵市公安局",
+      599,
+      680,
+      951,
+      744,
+      1,
+      0.99999976,
+      1,
+      1,
+      1,
+      0.99999964,
+      0.9999988
+    ],
+    [
+      "份",
+      1021,
+      272,
+      1153,
+      403,
+      0,
+      0.9999434
+    ],
+    [
+      "证",
+      1213,
+      276,
+      1342,
+      402,
+      0,
+      0.99972135
+    ],
+    [
+      "居",
+      446,
+      266,
+      571,
+      394,
+      0,
+      0.9823553
+    ],
+    [
+      "身",
+      832,
+      277,
+      953,
+      396,
+      0,
+      0.9998344
+    ],
+    [
+      "氏",
+      646,
+      272,
+      763,
+      392,
+      0,
+      0.68759036
+    ],
+    [
+      "瞿",
+      461,
+      509,
+      517,
+      552,
+      0,
+      0.08244796
+    ],
+    [
+      "",
+      776,
+      609,
+      825,
+      651,
+      0,
+      0
+    ],
+    [
+      "2",
+      68,
+      14,
+      116,
+      47,
+      0,
+      0.13892432
+    ]
+  ]
+}

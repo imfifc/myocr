@@ -1,0 +1,99 @@
+# key 的必须和非必须指的是这个 key 是否一定要存在
+
+above_items: # 非必须，数组，元素为字典
+- area: [92, 66, 154, 78] # 必须。长度为 4 的整数数组
+  # 必须。用于在输入字符串中匹配特定字符串，作为 above_item，匹配时只会考虑字符串的内容，没有考虑位置
+  # 可能是三种类型 string; List[string] ; List[Dict]  dict 结构为 {"text": str, "ed_thresh": int}
+  contents: '实时结算:'
+  item_name: above_1 # 必须。字符串，只用于模板制作工具中可视化
+  regex: '' # 非必须。字符串，会被 re.search 调用
+  # 非必须。 字符串 '1' 或 ''，在搜索结果中最终会返回匹配了更多 above_item.can_not_miss==True 的偏移结果
+  # 仅在 above_offset_method 为 'iou' 时生效。
+  can_not_miss: '1'
+
+# 当 ban_offset 为 '1' 时，这个 above_item 是用来判断文本框是否要做前景偏移的
+# contents 和 regex 是不生效的
+- area: [607, 80, 742, 100]
+  contents: '' # 当 ban_offset=='1' 时无效
+  item_name: above_4
+  regex: '' # 当 ban_offset=='1' 时无效
+  ban_offset: '1' # 非必须。字符串，'1' 或 ''。'1' 表示前景偏移时该区域内的文本是否需要偏移
+  ioo_thresh: 0.4 # 非必须，默认0.1。float，文本框与 area 的 ioo > ioo_thresh 时，不做前景偏移
+
+# 非必须
+bg_items:
+- area: [89, 90, 140, 101] # 长度为 4 的整数数组
+  # 用于在输入字符串中匹配特定字符串，作为 bg_item，匹配时只会考虑字符串的内容，没有考虑位置
+  # 类型定义同 above_items 的定义
+  contents: [业务流水号, '业务流水号:']
+  item_name: bg_yewuliushuihao # 字符串，只用于模板制作用具中的可视化
+  # 非必须，字符串，默认 'common'。可选值有 ['common', 'h_split', 'h_merge']
+  # 表示匹配背景字时的匹配模式。当 mode=='h_split' 或 'h_merge' 时，
+  # 只会使用 contents 中的第一个元素，且会忽略 'ed_distance' 配置
+  mode: 'common'
+- area: [496, 110, 560, 121]
+  # 类型为 List[Dict] 的示例
+  contents:
+  - text: 社会保障卡号
+    ed_thresh: 2
+  item_name: bg_shehuibaozhangka
+
+# List[Dict]
+fg_items:
+# 各个 filter 的调用流程
+# 1. filter_area 过滤掉不在区域内的文本框
+# 2. filter_content 过滤掉不包含特定内容的文本
+# 3. run_pre_func 执行 item_pre_func 预处理函数
+# 4. filter_regex 正则过滤，并提取 group(1)
+# 5. post_filter_regex 执行 item_post_regex_filter_func 函数
+# 6. run_post_func 执行 item_post_func 函数
+
+- filter_areas: # 非必须。List[Dict] 对多个 filter_area 按照权重顺序进行搜索，如果搜索到正确结果就返回
+  - area: [294, 39, 525, 65] # 必须，长度为 4 的整数数组
+    w: 1.0 # 必须，float
+    ioo_thresh: 0 # 非必须，float, 默认 0
+  # 非必须。字典。在 filter_areas 时对 area 区域进行处理。
+  # mode 目前只支持 1，表示扩大 area 范围
+  # h_pad/w_pad：高度、宽度方向单边 padding 的比例。
+  search_strategy: {h_pad: 2, mode: 1, w_pad: 0.5}
+  # deprecated. 搜了一下，这个配置目前代码里完全没有用到，实际上也不太常用，可以删除
+  filter_thresh_w: 1.0
+  # 非必须。List[str]。过滤掉不包含任何 filter_contents 中内容的文本
+  filter_contents: ['实时','时','已实时']
+  # 非必须。List[Dict]。
+  filter_regexs:
+  - regex: '([中央]{1})' # 必须。字符串。使用 re.search 来过滤文本。如果 item_post_func==_post_func_max_w_regex，必须有 `()`，group(1) 会作为最后的结果
+    w: 1.0 # 必须。float
+  item_name: city # 必须，字符串。作为最后输出的结构化结果的 key
+  # 非必须。字符串或字典。字符串表示函数名，字典的话可以传额外的参数
+  item_pre_func: {'func': _pre_func, 'kwargs': {}}
+  # 必须。字符串。不支持像 item_pre_func 一样传参数。该函数用于返回最终的结构化结果
+  item_post_func: _post_func_beijing_city
+  # 非必须。字符串。不支持像 item_pre_func 一样传参数。
+  item_post_regex_filter_func: _post_regex_filter_city
+  # 非必须。是否作为最后的结构化结果输出。某些 fg_item 可能只是用来提取信息给给其它字段用
+  should_output: false # python 里面 yaml.load 以后会变成布尔值
+
+# fg_item 的特殊例子：返回一个固定的常量。
+- {item_name: registrationtype, post_func_const_val: 门诊}
+
+# 非必须 List[Dict]
+region_items:
+  - filter_areas: # List[Dict] 对多个 filter_area 按照权重顺序进行搜索，如果搜索到正确结果就返回
+      - area: [50, 150, 732, 340] # 必须，长度为 4 的整数数组
+        w: 1.0 # 非必须，float
+        ioo_thresh: 0 # 非必须，float, 默认 0
+    # 必须。字符串
+    item_name : charges_region1
+    # 必须。字符串或者字典，支持传参数
+    region_post_func : {
+      func: _area_func_medical_charges,
+      args: 1,
+      kwargs: {reserve_int: True}
+    }
+
+# 非必须。字符串。['iou', 'anchor'] above_offset.py
+# 前景偏移的方式
+# iou: 以 iou 为基准搜索
+# anchor：以中心点的偏移量为基准搜索，适用于 above_item 数量较少
+above_offset_method: 'iou'
